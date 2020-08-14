@@ -38,7 +38,6 @@ header {
 .header-event-title {
   margin-bottom: 2rem;
   color: #333;
-  font-family: Roboto;
   font-weight: Regular;
   font-size: 144px;
   opacity: 1;
@@ -48,7 +47,6 @@ header {
 .header-date {
   width: 590px;
   color: #333;
-  font-family: monospace;
   font-size: 4rem;
   opacity: 1;
   text-align: left;
@@ -73,11 +71,10 @@ header {
 .intro-text {
   margin: auto;
   color: #EEEEEE;
-  font-family: Roboto;
-  font-weight: Regular;
   font-size: 1.5rem;
   opacity: 1;
   text-align: center;
+  overflow: hidden;
 }
 
 .intro-rule {
@@ -100,14 +97,15 @@ header {
   text-align: center;
   cursor: pointer;
   box-shadow: 2px 2px 8px rgba(0,0,0,0.5);
+  text-decoration: none;
 }
 .intro-button:hover, .intro-button:active {
   background: #9e3d5d;
   box-shadow: none;
+  transform: translate(1px,1px);
 }
 .intro-button-text {
   color: #FDFDFD;
-  font-family: Roboto;
   font-weight: Regular;
   font-size: 2rem;
   opacity: 1;
