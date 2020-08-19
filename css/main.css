@@ -86,6 +86,11 @@ header {
   font-size: 1.2rem;
 }
 
+.intro-rule.disabled {
+  pointer-events: none;
+  color: #d49bae;
+}
+
 .intro-button {
   background: #d75e86;;
   padding: 30px 0;
