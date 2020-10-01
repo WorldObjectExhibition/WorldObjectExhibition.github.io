@@ -66,8 +66,7 @@ header {
 .intro {
   width: 100%;
   background: #333333;
-  margin: 3rem 0 0;
-  padding: 3rem 0;
+  padding: 1rem 0;
 }
 .intro-text {
   margin: auto;
@@ -80,7 +79,6 @@ header {
 
 .intro-rule {
   margin: 2rem auto;
-  display: table;
   text-align: center;
   color: #fbc5d7;
   font-size: 1.2rem;
@@ -111,6 +109,7 @@ header {
   box-shadow: none;
   transform: translate(1px,1px);
 }
+
 .intro-button-text {
   color: #FDFDFD;
   font-weight: Regular;
@@ -119,6 +118,169 @@ header {
   text-align: center;
 }
 
+.exhibitors {
+  margin: 0rem 0 3rem;
+}
+
+.exhibitors h2 {
+  color: white;
+  text-align: center;
+}
+
+.exhibitors-area {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.exhibitor {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 340px;
+  margin: 1rem;
+}
+
+.exhibitor-icon {
+  width: 100px;
+  height: 100px;
+  background: #333333;
+  border: 2px solid #EEEEEE;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.exhibitor-name-area {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  color: #EEE;
+  background: #333;
+  border: 1px solid #EEE;
+  border-radius: 0 50px 50px 0;
+  width: 160px;
+  height: 95px;
+  overflow: hidden;
+  padding: 0 60px;
+  margin: 0 -100px 0 -50px;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.5);
+  cursor: pointer;
+  text-decoration: none;
+}
+.exhibitor-name-area:hover, .exhibitor-name-area:active {
+  filter: brightness(0.6);
+  box-shadow: none;
+  transform: translate(1px,1px);
+}
+
+.exhibitor-shop-name {
+  margin: 0.25em 0 .5em;
+  font-weight: bold;
+  overflow: hidden;
+}
+
+.exhibitor-shop-name.small {
+  font-size: 0.75em;
+}
+
+.exhibitor-name {
+  margin: 0.25em 0 .5em;
+  font-size: 0.8em;
+  overflow: hidden;
+}
+
+.exhibitor-twitter-id {
+  font-size: 0.65rem;
+  margin-top: -0.5em;
+  color: #CCC;
+  overflow: hidden;
+}
+
+.exhibitor-shop {
+  background: url("/img/shop.svg");
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  z-index: 1;
+  cursor: pointer;
+  text-decoration: none;
+}
+.exhibitor-shop:hover, .exhibitor-shop:active {
+  filter: brightness(0.6);
+  box-shadow: none;
+  transform: translate(1px,1px);
+}
+
+.staffs {
+  background: linear-gradient(135deg, #EDEDED 21px, #e3e3e3 22px, #e3e3e3 24px, transparent 24px, transparent 67px, #e3e3e3 67px, #e3e3e3 69px, transparent 69px), linear-gradient(225deg, #EDEDED 21px, #e3e3e3 22px, #e3e3e3 24px, transparent 24px, transparent 67px, #e3e3e3 67px, #e3e3e3 69px, transparent 69px)0 64px;
+  background-color: #EDEDED;
+  background-size: 64px 128px;
+  padding: 2rem 0 7rem;
+}
+.staffs h2 {
+  color: #333;
+  text-align: center;
+}
+
+.staffs-area {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.staff {
+  width: 300px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.staff-icon {
+  width: 100px;
+  height: 100px;
+  display: block;
+  border-radius: 50%;
+  z-index: 1;
+  cursor: pointer;
+}
+.staff-icon:hover, .staff-icon:active {
+  filter: brightness(0.8);
+  transform: translate(1px,1px);
+}
+
+.staff-org {
+  background: #EA9999;
+}
+.staff-co {
+  background: #A4C2F4;
+}
+
+.staff-name-area {
+  text-align: center;
+}
+
+.staff-name {
+  margin: .5rem 0;
+  font-weight: bold;
+}
+
+.staff-role {
+  font-size: .8rem;
+  margin-top: -0.75em;
+}
+
+
+@media screen and (max-device-width: 320px) {
+  .exhibitor-name-area {
+    width: 110px;
+  }
 @media screen and (min-width: 0px) and (max-device-width: 425px) {
   html, body {
     font-size: 8px;
@@ -130,10 +292,16 @@ header {
   .intro-rule {
     font-size: 1.8rem;
   }
+  .staff {
+    width: 140px;
+  }
 }
 @media screen and (min-width: 426px) and (max-device-width: 920px) {
   html, body {
     font-size: 12px;
+  }
+  .staff {
+    width: 170px;
   }
 }
 @media screen and (min-width: 911px)  {
