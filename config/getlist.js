@@ -57,6 +57,7 @@ const list = [
   ['dokkoi', 'DYokkoi', 'こたつ本舗','https://dyokkoi.booth.pm/'],
   ['えくれあ', 'EClareChan', 'えくれあ屋','https://eclare.booth.pm/'],
   ['Ichika H. Poqou', 'rotten_apples__', '一夏庵','https://hpoqou.booth.pm/'],
+  ['kelupu', 'kelupu', 'けるぷのもり','https://kelupu.booth.pm/'],
 ];
 
 list.forEach(user => {

@@ -8,7 +8,7 @@
     "staff": "npx spritesmith --rc ./config/staff-icon-spritesmith.js",
     "icon": "npx spritesmith --rc ./config/exhibitor-icon-spritesmith.js",
     "webp": "webpc -f img/staff-icons.png,img/exhibitor-icons.png",
-    "list": "node config/getlist.js > userlist.txt"
+    "ulist": "node config/getlist.js > userlist.txt"
   },
   "repository": {
     "type": "git",
