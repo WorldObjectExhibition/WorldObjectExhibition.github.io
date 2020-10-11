@@ -1,0 +1,23 @@
+{
+  "name": "worldobjectexhibition.github.io",
+  "version": "1.0.0",
+  "description": "WorldObjectExhibition",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve",
+    "staff": "npx spritesmith --rc ./config/staff-icon-spritesmith.js",
+    "icon": "npx spritesmith --rc ./config/exhibitor-icon-spritesmith.js",
+    "webp": "webpc -f img/staff-icons.png,img/exhibitor-icons.png",
+    "list": "node config/getlist.js > userlist.txt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WorldObjectExhibition/WorldObjectExhibition.github.io.git"
+  },
+  "author": "@mmnk_vt, @alfe_below",
+  "license": "MIT",
+  "homepage": "https://github.com/WorldObjectExhibition/WorldObjectExhibition.github.io",
+  "devDependencies": {
+    "spritesmith-cli": "^1.1.2"
+  }
+}

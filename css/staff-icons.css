@@ -1,0 +1,49 @@
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+```html
+<i class="icon-home"></i>
+```
+*/
+.ic-Coquelicots_WoT {
+  background-image: url(/img/staff-icons.webp);
+  background-position: 0px 0px;
+  width: 100px;
+  height: 100px;
+}
+.ic-Musha_JP {
+  background-image: url(/img/staff-icons.webp);
+  background-position: 0px -510px;
+  width: 100px;
+  height: 100px;
+}
+.ic-disshimu {
+  background-image: url(/img/staff-icons.webp);
+  background-position: 0px -102px;
+  width: 100px;
+  height: 100px;
+}
+.ic-kelupu {
+  background-image: url(/img/staff-icons.webp);
+  background-position: 0px -204px;
+  width: 100px;
+  height: 100px;
+}
+.ic-mmnk_vt {
+  background-image: url(/img/staff-icons.webp);
+  background-position: 0px -306px;
+  width: 100px;
+  height: 100px;
+}
+.ic-momoma_creative {
+  background-image: url(/img/staff-icons.webp);
+  background-position: 0px -408px;
+  width: 100px;
+  height: 100px;
+}
+.ic-tonarimachi_oz {
+  background-image: url(/img/staff-icons.webp);
+  background-position: 0px -612px;
+  width: 100px;
+  height: 100px;
+}
