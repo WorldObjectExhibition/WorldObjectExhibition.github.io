@@ -16,8 +16,5 @@
   },
   "author": "@mmnk_vt, @alfe_below",
   "license": "MIT",
-  "homepage": "https://github.com/WorldObjectExhibition/WorldObjectExhibition.github.io",
-  "devDependencies": {
-    "spritesmith-cli": "^1.1.2"
-  }
+  "homepage": "https://github.com/WorldObjectExhibition/WorldObjectExhibition.github.io"
 }
